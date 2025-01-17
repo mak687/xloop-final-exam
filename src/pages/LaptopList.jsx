@@ -44,7 +44,7 @@ const LaptopList = () => {
                         {laptop.specifications.processor} - {laptop.specifications.memory} GB RAM
                       </Card.Text>
                       <Link to={`/laptop/${laptop.id}`}>
-                        <button className='btn-primary'>View Details</button>
+                        <button className='btn btn-primary'>View Details</button>
                       </Link>
                     </Card.Body>
                 </Card>

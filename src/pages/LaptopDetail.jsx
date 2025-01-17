@@ -76,7 +76,7 @@ const LaptopDetail = () => {
       </Table>
 
       <Link to={`/`}>
-            <button className='btn-primary'> Back to Listing</button>
+            <button className='btn btn-primary'> Back to Listing</button>
         </Link>
     </div>
   );
