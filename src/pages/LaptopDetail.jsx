@@ -23,8 +23,7 @@ const LaptopDetail = () => {
   if (!laptop) {
     return <p>Loading...</p>;
   }
-  console.log(laptop)
-
+  
   return (
     <div>
       <h1>{laptop.specifications.brand} {laptop.specifications.model}</h1>
